@@ -45,7 +45,8 @@ class _HadisPageState extends State<HadisPage> {
     String url = 'https://www.hadithapi.com/public/api/hadiths?apiKey=$apiKey&page=$currentPage&size=$pageSize';
     if (query.isNotEmpty) {
       url += '&hadithEnglish=$query';
-    } else if (number.isNotEmpty) {
+    }
+    if (number.isNotEmpty) {
       url += '&hadithNumber=$number';
     }
 
