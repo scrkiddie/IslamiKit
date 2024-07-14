@@ -1,5 +1,5 @@
 # IslamiKit
-![346157725-547b27f6-528e-4a26-81df-26e78e5dd270](https://github.com/scrkiddie/JustAccount/assets/170083313/3a8d7194-85a6-4a57-8c1d-20b1328dd5c9)
+![image](https://github.com/user-attachments/assets/3ef5ee36-0f20-4311-83a8-dc3c265fd6d4)
 
 
 Aplikasi ini menyediakan berbagai fitur Islami menggunakan beberapa Open API untuk Al-Quran, Hadis, Waktu Sholat, Informasi Kajian, dan lainnya.

@@ -62,7 +62,7 @@ class _RegisterPageState extends State<RegisterPage> {
           );
         } else if (response.statusCode == 409) {
           Map<String, dynamic> errorBody = jsonDecode(response.body);
-          String errorMessage = errorBody['errors'];
+          String errorMessage = errorBody['error'];
 
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
